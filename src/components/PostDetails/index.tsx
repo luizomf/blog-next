@@ -10,7 +10,7 @@ export type PostDetailsProps = {
 export const PostDetails = ({ author, category, date }: PostDetailsProps) => {
   return (
     <Container>
-      Publicado por <Date date={date} />
+      Publicado em <Date date={date} /> por {author} | {category}
     </Container>
   );
 };
