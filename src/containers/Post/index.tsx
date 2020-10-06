@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { Comments } from '../../Comments';
+import { Comments } from '../../components/Comments';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Heading } from '../../components/Heading';
