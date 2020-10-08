@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { PaginationData } from '../../domain/posts/paginations';
+import { PaginationData } from '../../domain/posts/pagination';
 import { Container, NextLink, PreviousLink } from './styled';
 
 export type PaginationProps = PaginationData;

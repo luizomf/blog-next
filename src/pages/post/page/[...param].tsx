@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import HomePage from '../../../containers/HomePage';
 import { countAllPosts } from '../../../data/posts/count-all-posts';
 import { getAllPosts } from '../../../data/posts/get-all-posts';
-import { PaginationData } from '../../../domain/posts/paginations';
+import { PaginationData } from '../../../domain/posts/pagination';
 import { PostData } from '../../../domain/posts/post';
 
 export type PageProps = {
