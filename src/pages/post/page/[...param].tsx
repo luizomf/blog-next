@@ -52,6 +52,6 @@ export const getStaticProps: GetStaticProps = async (ctx) => {
 
   return {
     props: { posts, pagination, category },
-    revalidate: 600,
+    // revalidate: 600,  // Eu não preciso atualizar este blog (por isso comentei)
   };
 };

@@ -16,6 +16,6 @@ export const getStaticProps: GetStaticProps = async () => {
 
   return {
     props: { posts },
-    revalidate: 600,
+    // revalidate: 600,  // Eu não preciso atualizar este blog (por isso comentei)
   };
 };
